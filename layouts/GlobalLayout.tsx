@@ -9,9 +9,9 @@ function GlobalLayout({ children }: GlobalLayoutProps) {
   return (
     <>
       <Header />
-      <Sidebar
+      {/* <Sidebar
         navigationData={["Home", "Gallery", "Store", "Favorites", "Saved"]}
-      />
+      /> */}
       <div className="p-20">{children}</div>
     </>
   );
