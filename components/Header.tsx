@@ -105,7 +105,7 @@ function Header() {
   return (
     <Popover className="relative bg-white z-50">
       <div className="max-w-7xl mx-auto ">
-        <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 px-6 md:justify-start md:space-x-10">
+        <div className="flex justify-between items-center border border-Color_Border py-6 px-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <a href="/Workflow">
               <span className="sr-only">Workflow</span>
@@ -289,7 +289,7 @@ function Header() {
             </Popover>
           </Popover.Group>
           <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-            <Link href="signIn">
+            <Link href="/signIn">
               <a className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
                 Sign in
               </a>
